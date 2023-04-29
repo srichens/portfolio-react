@@ -1,41 +1,39 @@
 .about {
-    display: flex;  
-    flex-direction: column;  
+    display: flex;    
+    flex-wrap: wrap; 
     width: 100%;
+    
+   
 
 }
 
+
+
 .profile-pic{
-    /*display: flex;*/
+    display: flex;
+    flex-wrap: wrap;
     margin: 50px;
-    border: solid green;
-    display: inline-block; 
-    position: relative; 
+    border: solid 10px gray;     
     width: 200px; 
     height: 200px; 
     overflow: hidden; 
-    border-radius: 50%; 
-    
+    border-radius: 50%;    
 
 }
 
 .bio{
-    margin: 50px;
-    display: flex;
-    border: solid rgb(128, 0, 0);
-    width: 75%;
+margin: 50px;
+display: flex;
+flex-direction: column;
+width: 75%;
+align-items: left;
+
 }
 
 .image{
- /*width: 25%;
- border: solid black;*/
- width: auto; height: 130%; margin-left: -70px; 
- 
-  
-    
-
+ width: auto; 
+ height: 125%; 
+ margin-left: -70px; 
+ margin-top: -5px; 
 }
 
-.circular--landscape { 
-    display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
-    .circular--landscape img { width: auto; height: 100%; margin-left: -50px; }
