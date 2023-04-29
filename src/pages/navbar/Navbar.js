@@ -1,15 +1,47 @@
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ currentPage, handlePageChange }) => {
     return (
-        <div className="nav">
-            <ul>
-                <li><button>about me</button></li>
-                <li><button>portfolio</button></li>
-                <li><button>contact</button></li>
-                <li><button>resume</button></li>
+        
+            <ul className="nav">
+                <li>
+                    <a 
+                        href="#about" 
+                        onClick={() => handlePageChange('About')} 
+                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                    >
+                     about me
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="#portfolio" 
+                        onClick={() => handlePageChange('Portfolio')} 
+                        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                    >
+                    portfolio
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="#contact" 
+                        onClick={() => handlePageChange('Contact')} 
+                        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                    >
+                     contact
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="#resume" 
+                        onClick={() => handlePageChange('Resume')} 
+                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                    >
+                     resume
+                    </a>
+                </li>
             </ul>
-        </div>
+      
     )
 };
 

@@ -13,11 +13,13 @@
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
-    border: solid 10px gray;     
+    /*border: solid 8px rgb(255, 27, 73);  */    
+    border: solid 8px lightgray;      
     width: 200px; 
     height: 200px; 
     overflow: hidden; 
-    border-radius: 50%;    
+    border-radius: 50%;   
+    
 
 }
 
@@ -35,5 +37,6 @@ align-items: left;
  height: 125%; 
  margin-left: -70px; 
  margin-top: -5px; 
+ 
 }
 
