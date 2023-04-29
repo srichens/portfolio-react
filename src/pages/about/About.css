@@ -1,0 +1,41 @@
+.about {
+    display: flex;  
+    flex-direction: column;  
+    width: 100%;
+
+}
+
+.profile-pic{
+    /*display: flex;*/
+    margin: 50px;
+    border: solid green;
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    
+
+}
+
+.bio{
+    margin: 50px;
+    display: flex;
+    border: solid rgb(128, 0, 0);
+    width: 75%;
+}
+
+.image{
+ /*width: 25%;
+ border: solid black;*/
+ width: auto; height: 130%; margin-left: -70px; 
+ 
+  
+    
+
+}
+
+.circular--landscape { 
+    display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+    .circular--landscape img { width: auto; height: 100%; margin-left: -50px; }
