@@ -15,6 +15,7 @@
     background-color: rgb(145, 125, 159);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-width: 160px;
+    text-decoration: none;
     
   }
   a:hover{
@@ -30,6 +31,7 @@
     color: white;
     list-style-type: none;
     font-size: x-large;
+    
    
     
   }
