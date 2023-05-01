@@ -40,7 +40,7 @@ const Home = ( {clickItem, handleClickItem }) => {
                     <a 
                         href="#resume" 
                         onClick={() => handleClickItem('Resume')} 
-                        className={clickItem === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        className={clickItem  === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
                      resume
                     </a>

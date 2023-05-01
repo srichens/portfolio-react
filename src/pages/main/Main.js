@@ -18,7 +18,7 @@ const Main = () => {
         }
         if (currentPage === 'Contact') {
         return <Contact />;
-        }
+        }     
         return <Resume />;
     };
     const handlePageChange = (page) => setCurrentPage(page);

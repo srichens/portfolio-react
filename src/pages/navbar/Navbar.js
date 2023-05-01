@@ -6,6 +6,15 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             <ul className="nav">
                 <li>
                     <a 
+                        href="#home" 
+                        onClick={() => handlePageChange('Home')} 
+                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                    >
+                     sarah richens
+                    </a>
+                </li>
+                <li>
+                    <a 
                         href="#about" 
                         onClick={() => handlePageChange('About')} 
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
