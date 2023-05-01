@@ -1,7 +1,7 @@
 import './About.css';
 import profilepic from '../../images/profilepic.jpg';
 
-const About = () => {
+const About = () => {    
     return (
         <div className="about">
             <div className="pic-container">

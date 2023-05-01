@@ -3,16 +3,7 @@ import './Navbar.css';
 const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         
-            <ul className="nav">
-                <li>
-                    <a 
-                        href="#home" 
-                        onClick={() => handlePageChange('Home')} 
-                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                    >
-                     sarah richens
-                    </a>
-                </li>
+            <ul className="nav">                
                 <li>
                     <a 
                         href="#about" 

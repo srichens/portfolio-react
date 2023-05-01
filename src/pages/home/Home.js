@@ -1,7 +1,8 @@
 import './Home.css';
 import Html from '../../components/html/Html';
 
-const Home = ( {clickItem, handleClickItem }) => {
+const Home = ( {setShowHome }) => {
+    
     return (
         <div className="home-container">
             <Html />
@@ -9,7 +10,8 @@ const Home = ( {clickItem, handleClickItem }) => {
             <div className="console">
                 <h2 className="console-head">Console</h2>
                 <ul className="toc">
-                    <li className="toc-item"><span className="arrow">&gt;</span>
+                <li className="toc-item" ><span className="arrow">&gt;</span><a href="#main"onClick={() => setShowHome(false)}>enter</a></li>
+                    {/*<li className="toc-item"><span className="arrow">&gt;</span>
                         <a 
                             href="#about" 
                             onClick={() => handleClickItem('About')} 
@@ -44,7 +46,7 @@ const Home = ( {clickItem, handleClickItem }) => {
                     >
                      resume
                     </a>
-                    </li>
+                    </li>*/}
                 </ul>            
             </div>
         </div>
