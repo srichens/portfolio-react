@@ -1,36 +1,57 @@
 *{
-    background-color: black;
+    /*background-color: black;*/
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.container {
+    display: flex;
+    background-color: rgb(145, 125, 159);
+}
+
+.html {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
 div {
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 20px;
+   
 }
 
 p {
-    margin: 5px;
-    color: purple;
-    font-size: 30px;
+   margin: 5px; 
+    /*color: purple;*/
+    color: darkgray;
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.indent {
-    margin-left: 70px;
-}
-
-.name-section {
-    margin-top: 0px;
+.indent1 {
     margin-left: 50px;
 }
 
+.indent2 {
+    margin-left: 100px;
+}
+
+
+.name-section {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 .name {
-    color: purple;
+    /*color: purple;*/
+    color: darkgray;
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 70px;
+    margin-left: 150px;
 
 }
 
@@ -41,14 +62,18 @@ p {
 
 .tag-section {
     margin-top: 0px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .tag {
-    color: purple;
-    font-size: 30px;
+    /*color: purple;*/
+    color: darkgray;
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 110px;
+    margin-left: 200px;
 
 }
 
@@ -58,16 +83,20 @@ p {
 }
 
 .button-section {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .button {
-    color: purple;
-    font-size: 30px;
+    /*color: purple;*/
+    color: darkgray;
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 140px;
-    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-bottom: 30px;
 
 }
 
@@ -82,7 +111,7 @@ p {
 
 .head {
     color: purple;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -90,4 +119,38 @@ p {
 
 .end-section {
     margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.console {
+    height: 100vh;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+h2 {
+    color: darkgray;
+    border-bottom: solid darkgray;
+
+}
+
+ul {
+     margin: 5px;  
+    color: darkgray;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;    
+}
+.arrow{
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+li {
+    padding-bottom: 20px;
 }
