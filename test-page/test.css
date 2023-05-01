@@ -1,0 +1,93 @@
+*{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 5px;
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.indent {
+    margin-left: 70px;
+}
+
+.name-section {
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.name {
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px;
+
+}
+
+.name-text {
+    color: white;
+    font-size: 100px;
+}
+
+.tag-section {
+    margin-top: 0px;
+}
+
+.tag {
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 110px;
+
+}
+
+.tag-text {
+    color: white;
+    font-size: 50px;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+.button {
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    margin-bottom: 20px;
+
+}
+
+.button-text {
+    color: white;
+    font-size: 40px;
+}
+
+.head-section {
+    margin-top: 0px;
+}
+
+.head {
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.end-section {
+    margin-top: 0px;
+}
