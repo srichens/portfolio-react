@@ -5,6 +5,7 @@ import About from '../about/About.js';
 import Portfolio from '../portfolio/Portfolio.js';
 import Contact from '../contact/Contact.js';
 import Resume from '../resume/Resume.js';
+import Home from '../home/Home';
 
 const Main = () => {
     const [currentPage, setCurrentPage] = useState('About');
