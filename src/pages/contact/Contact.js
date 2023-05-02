@@ -36,8 +36,11 @@ const Contact = () => {
              
       } else if (!name) {
         setErrorMessage('Name is required');
+
+        return;
       } else if (!message) {
         setErrorMessage('Message is required');
+        return;
       }
      
   
@@ -45,6 +48,7 @@ const Contact = () => {
       setName('');
       setMessage('');
       setEmail('');
+      setErrorMessage('');
     };
   
     return (
