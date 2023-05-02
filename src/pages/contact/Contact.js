@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './Contact.css';
 
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 const Contact = () => {
     const [email, setEmail] = useState('');
-    const [userName, setUserName] = useState('');
-    const [password, setPassword] = useState('');
+    const [name, setName] = useState('');
+    const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
   
     const handleInputChange = (e) => {    
@@ -17,10 +17,10 @@ const Contact = () => {
       
       if (inputType === 'email') {
         setEmail(inputValue);
-      } else if (inputType === 'userName') {
-        setUserName(inputValue);
+      } else if (inputType === 'name') {
+        setName(inputValue);
       } else {
-        setPassword(inputValue);
+        setMessage(inputValue);
       }
     };
   
@@ -29,23 +29,21 @@ const Contact = () => {
       e.preventDefault();
   
     
-      if (!validateEmail(email) || !userName) {
-        setErrorMessage('Email or username is invalid');
+      if (!validateEmail(email)) {
+        setErrorMessage('Please enter a valid email');
        
         return;
-       
+             
+      } else if (!name) {
+        setErrorMessage('Name is required');
+      } else if (!message) {
+        setErrorMessage('Message is required');
       }
-      if (!checkPassword(password)) {
-        setErrorMessage(
-          `Choose a more secure password for the account: ${userName}`
-        );
-        return;
-      }
-      alert(`Hello ${userName}`);
+     
   
      
-      setUserName('');
-      setPassword('');
+      setName('');
+      setMessage('');
       setEmail('');
     };
   
@@ -53,26 +51,26 @@ const Contact = () => {
       <div>
         <p>Contact</p>
         <form className="form">
+            <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Name"
+          />
           <input
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="email"
-          />
+            placeholder="Email Address"
+          />      
           <input
-            value={userName}
-            name="userName"
+            value={message}
+            name="message"
             onChange={handleInputChange}
-            type="text"
-            placeholder="username"
-          />
-          <input
-            value={password}
-            name="password"
-            onChange={handleInputChange}
-            type="password"
-            placeholder="Password"
+            type="message"
+            placeholder="Message"
           />
           <button type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
