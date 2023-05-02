@@ -4,9 +4,11 @@ import React, { useState } from 'react';
 
 function App() { 
   const [showHome, setShowHome] = useState(true); 
+  
   return (
     <div className="App">
-     { showHome?<Home setShowHome={setShowHome} /> : <Main  />  };   
+     { showHome?<Home setShowHome={setShowHome} /> : <Main/>  };  
+  
      
            
     </div>

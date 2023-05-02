@@ -7,7 +7,7 @@ import Contact from '../contact/Contact.js';
 import Resume from '../resume/Resume.js';
 import Home from '../home/Home';
 
-const Main = (setShowHome) => {
+const Main = () => {
     const [currentPage, setCurrentPage] = useState('About');
     const renderPage = () => {
         if (currentPage === 'About') {
