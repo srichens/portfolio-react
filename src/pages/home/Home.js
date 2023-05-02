@@ -1,5 +1,8 @@
 import './Home.css';
 import Html from '../../components/html/Html';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/pro-regular-svg-icons'
+
 
 const Home = ( {setShowHome }) => {
     
@@ -10,7 +13,7 @@ const Home = ( {setShowHome }) => {
             <div className="console">
                 <h2 className="console-head">Console</h2>
                 <ul className="toc">
-                <li className="toc-item" ><span className="arrow">&gt;</span><a href="#main"onClick={() => setShowHome(false)}>enter</a></li>
+                <li className="toc-item" ><FontAwesomeIcon className="arrow" icon={faChevronRight} fade /><a href="#main"onClick={() => setShowHome(false)}>enter</a></li>
                     {/*<li className="toc-item"><span className="arrow">&gt;</span>
                         <a 
                             href="#about" 
