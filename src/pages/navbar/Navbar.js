@@ -2,7 +2,7 @@ import './Navbar.css';
 
 const Navbar = ({ currentPage, handlePageChange }) => {
     return (
-        
+        <div className="navbar">
             <ul className="nav">                
                 <li className="nav-item">
                     <a 
@@ -41,7 +41,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                     </a>
                 </li>
             </ul>
-      
+        </div>
     )
 };
 
