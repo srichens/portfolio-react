@@ -4,7 +4,6 @@ import { faCompactDisc, faCloudShowersHeavy } from '@fortawesome/pro-solid-svg-i
 import { faPencil } from '@fortawesome/pro-duotone-svg-icons';
 import { FaGithub, FaSun} from 'react-icons/fa';
 
-
 const Portfolio = () => {
     return (
         <div className="portfolio">
