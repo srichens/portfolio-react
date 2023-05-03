@@ -1,6 +1,6 @@
 import './Main.css';
 import React, { useState } from 'react';
-import Navbar from '../navbar/Navbar.js';
+import Navbar from '../../components/navbar/Navbar.js';
 import About from '../about/About.js';
 import Portfolio from '../portfolio/Portfolio.js';
 import Contact from '../contact/Contact.js';

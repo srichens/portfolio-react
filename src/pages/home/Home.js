@@ -8,8 +8,7 @@ const Home = ( {setShowHome }) => {
     
     return (
         <div className="home-container">
-            <Html />
-            
+            <Html />            
             <div className="console">
                 <h2 className="console-head">Console</h2>
                 <ul className="toc">

@@ -2,58 +2,7 @@
     display: flex;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkgray;    
-     
-    }
-
-.html {
-    background-color: rgb(145, 125, 159);
-    padding-top: 20px;
-    padding-left: 50px;  
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 80%;
-    min-width: 950px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    font-weight: bolder;      
-    border-right: solid 15px darkgray;
-    
-}
-.no-indent, .indent1, .indent2, .name, .tag, .button {
-    margin: 5px;
-}
-
-.indent1 {
-    margin-left: 50px;
-}
-
-.indent2 {
-    margin-left: 100px;
-}
-
-.name {    
-    margin-left: 150px;
-    margin-top: 0px;
-
-}
-
-.name-text {
-    color: white;
-    font-size: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.tag {    
-    margin-left: 200px;
-    padding-bottom: 20px;
-}
-
-.tag-text {
-    color: white;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgray;         
 }
 
 .console {
@@ -63,13 +12,12 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-  
+    padding-left: 20px;  
 }
+
 .console-head {   
     padding-bottom: 10px;
-    border-bottom: solid darkgray;
-    
+    border-bottom: solid darkgray;    
 }
 
 .toc {
@@ -83,13 +31,13 @@
    flex-direction: column;  
    align-items: flex-start;   
 }
+
 .toc-item{
     display: flex;
-    align-content: left;
-    
-    
+    align-content: left;   
 }
-.arrow{
+
+.arrow {
    padding-right: 15px;
    padding-top: 5px;
 }
@@ -102,9 +50,8 @@
     padding: 5px 5px;
     border-radius: none;    
     background-color: white;
-   
-    min-width: none;
-    
+    text-decoration: none;
+    min-width: none;    
 }
 
 .toc-item a:hover{
@@ -114,8 +61,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
     padding: 5px 5px;
     border-radius: none;
-    background-color: white;
-   
-    min-width: none;
-    
+    background-color: white;   
+    min-width: none;    
 }
+
