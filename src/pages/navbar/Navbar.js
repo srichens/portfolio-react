@@ -4,7 +4,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         
             <ul className="nav">                
-                <li>
+                <li className="nav-item">
                     <a 
                         href="#about" 
                         onClick={() => handlePageChange('About')} 
@@ -13,7 +13,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                      about me
                     </a>
                 </li>
-                <li>
+                <li className="nav-item">
                     <a 
                         href="#portfolio" 
                         onClick={() => handlePageChange('Portfolio')} 
@@ -22,7 +22,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                     portfolio
                     </a>
                 </li>
-                <li>
+                <li className="nav-item">
                     <a 
                         href="#contact" 
                         onClick={() => handlePageChange('Contact')} 
@@ -31,7 +31,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                      contact
                     </a>
                 </li>
-                <li>
+                <li className="nav-item">
                     <a 
                         href="#resume" 
                         onClick={() => handlePageChange('Resume')} 
