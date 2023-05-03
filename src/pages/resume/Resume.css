@@ -1,11 +1,11 @@
 .resume {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkgray;
-    font-size: 25px;  
-    margin-left: 70px;
-    margin-right: 70px;    
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkgray;
+  font-size: 25px;  
+  margin-left: 70px;
+  margin-right: 70px;    
 }
 
 .resume-p a { 
@@ -13,8 +13,6 @@
   text-decoration: none; 
   font-weight: 600;
   padding: 0px 3px;
- 
-
 }
 
 .resume-p a:hover{
@@ -31,18 +29,16 @@
 }
 
 .resume-head {
-  font-size: 30px;
- 
+  font-size: 30px; 
 }
 
 .resume-sec-head {
   font-size: 25px;
- 
+  margin-bottom: 0px; 
 }
 
 .resume-list {
   display: flex;
   flex-direction: column; 
-  font-size: 25px;
-  
+  font-size: 25px;    
 }
