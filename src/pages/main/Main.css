@@ -20,10 +20,10 @@
   h1{
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 50%;
     padding: 20px;
     color: white;
-    font-size: 50px;    
+    font-size: 60px;    
   }
   
 
@@ -34,3 +34,22 @@
     
     
   }
+
+  @media only screen and (max-width: 1128px) {
+  
+   h1{
+ 
+    align-items: left;
+    width: 60%;
+  
+  }
+}
+
+  @media only screen and (max-width: 1086px) {
+  
+   h1{
+ 
+    width: 50%;
+  
+  }
+}

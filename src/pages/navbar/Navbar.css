@@ -8,8 +8,8 @@
 
   a{
     color: white;
-    font-size: x-large;
-    padding: 10px 30px;
+    font-size: 30px;
+    padding: 10px 10px;
     border-radius: 25px;
     /*background-color: rgb(106, 78, 125);*/
     background-color: rgb(145, 125, 159);
@@ -25,13 +25,69 @@
   ul {
     display: flex;      
     justify-content: space-around;
-    flex-wrap:wrap;
+  
     align-items: center;
     width: 100%;
     color: white;
     list-style-type: none;
-    font-size: x-large;
-    
-   
+    font-size: x-large;     
     
   }
+
+  li {
+    min-width: 25%;
+     }
+
+     @media only screen and (max-width: 1024px) {
+  
+          
+      li {
+       min-width: 50%;
+        }
+  
+     
+      }
+      
+   
+
+  @media only screen and (max-width: 780px) {
+    ul {
+      justify-content: center;
+      flex-wrap:wrap;
+      
+    }
+  
+    li {
+     min-width: 50%;
+      }
+
+      a {
+      
+        padding: 0px 10px;
+        border-radius: 25px;
+        }
+    }
+    
+
+
+@media only screen and (max-width: 640px) {
+  
+a {
+  /*font-size: 25px;*/
+  padding: 0px 10px;
+  border-radius: 25px;
+  }
+
+  li {
+    min-width: 75%;
+     }
+   
+}
+
+@media only screen and (max-width: 515px) {
+  
+  a {
+    font-size: 25px; 
+     
+  }
+}

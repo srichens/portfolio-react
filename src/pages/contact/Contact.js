@@ -52,31 +52,35 @@ const Contact = () => {
     };
   
     return (
-      <div>
-        <p>Contact</p>
+      <div className="contact">
+        <h2>Contact</h2>
         <form className="form">
-            <input
+          <label htmlFor="name">name</label>
+            <input className="contact-info"
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
-            placeholder="Name"
+            
           />
-          <input
+          <label htmlFor="email">email</label>
+          <input className="contact-info"
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="Email Address"
+            
           />      
-          <input
+          <label htmlFor="message">message</label>
+          <textarea className="message"
+         
             value={message}
             name="message"
             onChange={handleInputChange}
             type="message"
-            placeholder="Message"
+           
           />
-          <button type="button" onClick={handleFormSubmit}>Submit</button>
+          <button className="contact-btn" type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
         {errorMessage && (
           <div>

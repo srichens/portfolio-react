@@ -1,10 +1,53 @@
-.form {
-  margin: 20px;
+.contact {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkgray;
+  font-size: 25px;  
+  margin-left: 70px;
+  margin-right: 70px;    
 }
 
-.form input {
+
+
+.form {
+  margin: 0px;
+  width: 45%;
+  min-width: 350px;
+}
+
+.form input, .form textarea {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+  border: solid 2px darkgray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; 
+}
+
+.contact-info {
+  height: 30px;
+}
+.message { 
+  height: 250px;
+}
+
+.contact-btn {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  background-color: darkgray;
+  color: white;
+  width: 25%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: solid 2px darkgray;
+}
+
+.contact-btn:hover {
+  background-color: rgb(145, 125, 159);
+}
+.error-text {
+  color: darkred;
 }
