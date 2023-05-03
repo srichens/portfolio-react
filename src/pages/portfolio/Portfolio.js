@@ -1,6 +1,7 @@
 import './Portfolio.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCompactDisc } from '@fortawesome/pro-solid-svg-icons';
+import { faPencil } from '@fortawesome/pro-duotone-svg-icons';
 import { FaCloudRain, FaGithub, FaSun} from 'react-icons/fa';
 import { SiHeroku } from 'react-icons/si';
 
@@ -41,20 +42,34 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </div>
+                <div className="port-card6">
+                    <div className="code-content">
+                        <h3 className="code-head">Code Quiz</h3>
+                        <a href="https://srichens.github.io/code-quiz/" target="blank">
+                            <p className="github-black-icon"><FaGithub/></p>
+                        </a>
+                    </div>
+                </div>
                 <div className="port-card4">
                     <div className="weath-content">
-                        <h3 className="weath-head">Weather Dashboard</h3>
-                        <div className="weath-icons">
-                            <span className="sun"><FaSun /></span>
-                            <span className="rain"><FaCloudRain /></span>
-                         </div>
+                        <h3 className="weath-head">
+                            <span className="weath-icons"><span className="sun"><FaSun /></span>Weather<span className="rain"><FaCloudRain /></span></span> Dashboard</h3>
+                 
                         <a href="https://srichens.github.io/weather-dashboard/" target="blank">
                             <p className="github-icon"><FaGithub/></p>
                         </a>
                     </div>
                 </div>
-                <div className="port-card5">Note Taker</div>
-                <div className="port-card6">Code Quiz</div>
+                <div className="port-card5">
+                    <div className="note-content">
+                        <h3 className="note-head">Note Taker<span className="note-icon"><FontAwesomeIcon icon={faPencil}  bounce/></span></h3>
+                                        
+                        <a href="https://note-taker-srichens.herokuapp.com/" target="blank">
+                            <p className="heroku-black-icon"><SiHeroku/></p>
+                        </a>
+                        </div>
+                        </div>
+                
             </div>
         </div>
     )
