@@ -8,11 +8,10 @@ function App() {
   return (
     <div className="App">
      { showHome?<Home setShowHome={setShowHome} /> : <Main/>  };  
-  
-     
-           
+                 
     </div>
   );
 }
+
 
 export default App;
