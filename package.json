@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "homepage": "https://github.com/srichens/portfolio-react",
+  "homepage": "https://srichens.github.io/portfolio-react",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.4.0",
