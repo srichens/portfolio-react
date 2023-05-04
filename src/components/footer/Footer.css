@@ -14,11 +14,7 @@
   }
 
   .foot-item a{      
-     text-decoration: none;    
-  }
-
-  .foot-item a:hover{
-    background-color: rgb(145, 125, 159);
+     text-decoration: none;         
   }
   
   .footer ul {
