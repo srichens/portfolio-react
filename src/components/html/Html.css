@@ -10,6 +10,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     font-weight: bolder;      
+    border-right: solid 12px darkgray;
     
 }
 .no-indent, .indent1, .indent2, .name, .tag {
@@ -76,3 +77,125 @@
     1px 30px 60px rgba(16,16,16,0.4);
 }
 
+@media only screen and (max-width: 1268px) {  
+    .html {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-bottom: 2.5rem;   
+        max-height: 600px;
+        border-bottom: solid 12px darkgray;
+        border-right: none;
+        width: 100%;
+    } 
+    .indent1 {
+        margin-left: 25px;
+    }
+    .indent2 {
+        margin-left: 50px;
+    }
+    .name {
+        margin-left: 100px;
+    }
+    .tag {
+        margin-left: 150px;
+    }
+   
+  }      
+
+  @media only screen and (max-width: 935px) {  
+    .html {
+        padding-left: 20px;
+        font-size: 20px;
+    } 
+    .indent1 {
+        margin-left: 10px;
+    }
+    .indent2 {
+        margin-left: 25px;
+    }
+
+    .name{
+      
+        margin-left: 40px;
+    }  
+    .name-text{
+        font-size: 95px;
+        
+    }  
+    .tag-text {
+        font-size: 45px;
+        
+    }
+    .tag {
+    
+        margin-left: 90px;
+    }
+  }
+    @media only screen and (max-width: 804px) {  
+       
+        .name{
+          
+            margin-left: 30px;
+        }  
+        .name-text{
+            font-size: 85px;
+            
+        }  
+        .tag-text {
+            font-size: 35px;
+            
+        }
+        .tag {
+    
+            margin-left: 80px;
+        }
+
+  }      
+
+  @media only screen and (max-width: 719px) {  
+
+    .name-text{
+        font-size: 75px;
+        
+    }  
+    .tag-text {
+        font-size: 30px;
+        
+    }
+   
+}    
+
+@media only screen and (max-width: 650px) {  
+    .html {
+        font-size: 15px;
+    }
+
+    .name-text{
+        font-size: 55px;
+        
+    }  
+    .tag-text {
+        font-size: 25px;
+        
+    }
+   
+}    
+
+@media only screen and (max-width: 500px) {  
+    .html {
+        padding-left: 10px;
+    } 
+    .indent2 {
+        margin-left: 20px;
+    }
+
+    .name-text{
+        font-size: 50px;
+        
+    }  
+    .tag-text {
+        font-size: 20px;
+        
+    }
+   
+}    
