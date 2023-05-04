@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;   
  
   }
 
@@ -24,39 +25,29 @@
     display: flex;      
     justify-content: center;
     align-items: center;
-    width: 100%;   
+    width: 60%;   
     list-style-type: none;   
     text-align: center;
     
   }
 
-  .foot li {   
-    min-width: 20%;
-  
+  .foot li {      
+    min-width: 25%;  
    
   }
 
   .github-grey-icon { 
     color: darkgray;
     margin-top: 0;
-    font-size: 65px;
+    font-size: 55px;
  }
 
-  /*@media only screen and (max-width: 1024px) {      
-    .foot li {
-      min-width: 50%;
-    }  
-  }        */
 
   @media only screen and (max-width: 780px) {
     .footer ul {
       justify-content: center;
       flex-wrap:wrap;      
     }
-  
-   /*.foot li {
-     min-width: 50%;
-    }*/
 
     .foot-item a {      
       padding: 0px 10px;
@@ -69,10 +60,6 @@
   padding: 0px 10px;
   border-radius: 25px;
   }
-
-  /*.foot li {
-    min-width: 75%;
-  }   */
 }
 
 @media only screen and (max-width: 515px) {  
