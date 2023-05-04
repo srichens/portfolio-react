@@ -9,8 +9,8 @@ import Resume from '../resume/Resume.js';
 
 const Main = () => {
     const [currentPage, setCurrentPage] = useState('About');
-    const renderPage = () => {
-        if (currentPage === 'About') {
+    const renderPage = () => {        
+        if (currentPage === 'About') {           
         return <About />;
         }
         if (currentPage === 'Portfolio') {
@@ -21,7 +21,8 @@ const Main = () => {
         }   
         return <Resume />;
     };
-    const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => { 
+        setCurrentPage(page);}
 
     return (
         <div className="body">

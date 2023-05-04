@@ -13,7 +13,7 @@
   }
 
   .nav-item a{
-    color: white;
+   color: white;
     font-size: 30px;
     padding: 5px 20px;
     border-radius: 25px;  
@@ -26,13 +26,19 @@
   .nav-item a:hover{
     background-color: rgb(106, 78, 125);
   }
+
+  /*.nav-item a:active{
+    color: rgb(106, 78, 125);
+  }*/
+  
+
   
   .navbar ul {
     display: flex;      
     justify-content: space-around;  
     align-items: center;
     width: 100%;
-    color: white;
+  
     list-style-type: none;
     font-size: x-large;     
     
