@@ -1,7 +1,7 @@
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa';
-import { faEnvelope } from '@fortawesome/pro-solid-svg-icons';
+//import { faEnvelope } from '@fortawesome/pro-solid-svg-icons';
 
 
 
@@ -24,11 +24,11 @@ const Footer = () => {
                         <p className="github-grey-icon"><FaStackOverflow/></p>
                     </a>
                 </li> 
-                <li className="foot-item">
+                {/*<li className="foot-item">
                     <a href="mailto: sarahgrichens@gmail.com">
                         <p className="github-grey-icon"><FontAwesomeIcon icon={faEnvelope} /></p>
                     </a>
-                </li>                     
+                    </li> */ }                   
             </ul>
         </div>
     )
