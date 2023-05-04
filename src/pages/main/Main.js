@@ -1,6 +1,7 @@
 import './Main.css';
 import React, { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar.js';
+import Footer from '../../components/footer/Footer.js';
 import About from '../about/About.js';
 import Portfolio from '../portfolio/Portfolio.js';
 import Contact from '../contact/Contact.js';
@@ -32,6 +33,9 @@ const Main = () => {
             <main className="main">
                {renderPage()}
             </main>
+            <div className="footer">
+                <Footer />
+            </div>
         </div>
     )
 };
