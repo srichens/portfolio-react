@@ -61,6 +61,11 @@
      #about, #portfolio, #contact, #resume {
     padding: 90px 5px;
   }
+
+    .nav  {
+       width: 40%;
+   
+   }
  }
 
   @media only screen and (max-width: 1124px) {
