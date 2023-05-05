@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;     
+    align-items: center;    
   }
 
   .nav {
@@ -30,7 +30,6 @@
   .nav-item a:hover, .nav-item-about a:hover{
     color: rgb(75, 60, 85);
   }
-
  
   :target {
     color: lightgray;
@@ -111,4 +110,9 @@
    padding: 0px 10px;
    border-radius: 25px;
   } 
+
+  .navbar {
+    width: 60%;
+  }
+
 }

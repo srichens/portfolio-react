@@ -26,7 +26,7 @@ const Main = () => {
 
     return (
         <div className="body">
-            <header>
+            <header className="header">
                 <h1>sarah richens</h1>
                 <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
               
