@@ -2,14 +2,21 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center;     
   }
+
   .nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 75%;
-    height: 50%;
-    padding-right: 20px;      
+    height: 50%;          
+  }
+
+  .nav-item {
+    text-align: center;
+    max-width: 30%; 
+    padding-right: 25px;      
   }
 
   .nav-item a{
@@ -31,105 +38,77 @@
   } 
 
   #about, #portfolio, #contact, #resume {
-    padding: 60px 0px;
+    padding: 70px 5px;
   }
   
   .navbar ul {
     display: flex;      
     justify-content: space-around;  
     align-items: center;
-    width: 100%;
-  
+    width: 100%;  
     list-style-type: none;
     font-size: x-large;     
     
   }
+ 
 
-  .nav li {
-    min-width: 25%;
-  }
-
-  @media only screen and (max-width: 1263px) {
-  
-     #about, #portfolio, #contact, #resume {
-    padding: 90px 5px;
-  }
-
-    .nav  {
-       width: 40%;
-   
-   }
+  @media only screen and (max-width: 1263px) {  
+    #about, #portfolio, #contact, #resume {
+    padding: 90px 0px;    
+    }  
  }
 
-  @media only screen and (max-width: 1124px) {
-  
+  @media only screen and (max-width: 1124px) {  
     .nav  {
-       width: 100%;
-   
-   }
+    width: 100%;   
+    }
 
    #about, #portfolio, #contact, #resume {
-    padding: 80px 0px;
-  }
+    padding: 100px 0px;
+    }
  }
 
-  @media only screen and (max-width: 1024px) {     
-    
-    .nav li {
-      min-width: 50%;
+  @media only screen and (max-width: 1024px) {         
+    .nav-item {
+    min-width: 40%;      
     }  
 
     #about, #portfolio, #contact, #resume {
-      padding: 20px 5px;
+    padding: 10px 5px;
     }
   }        
 
   @media only screen and (max-width: 780px) {
-
     #about, #portfolio, #contact, #resume {
-      padding: 10px 5px;
+    padding: 10px 5px;
     }
  
-    .navbar ul {
+    .nav {
       justify-content: center;
       flex-wrap:wrap;      
     }
   
-   .nav li {
-     min-width: 50%;
+   .nav-item {
+     min-width: 100%;
     }
 
     .nav-item a {      
-      padding: 0px 10px;
-      border-radius: 25px;
-      }
+      padding: 0px 10px;     
+    }
   }    
 
 @media only screen and (max-width: 640px) {  
 
   #about, #portfolio, #contact, #resume {
-    padding: 5px 10px;
+    padding: 5px 0px;
   }
   .nav-item a {
-  padding: 0px 10px;
-  border-radius: 25px;
+  padding: 0px 0px;  
+  font-size: 25px;
   
   }
   :target {
    padding: 0px 10px;
    border-radius: 25px;
-  }
-  .nav li {
-    min-width: 75%;
-  }   
-}
-
-@media only screen and (max-width: 515px) {  
-  .nav-item a {
-    font-size: 25px;      
-  }
-  #about, #portfolio, #contact, #resume {
-    padding: 5px 0px;
-  }
-
+  } 
 }
