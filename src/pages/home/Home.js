@@ -15,7 +15,7 @@ const Home = ( {setShowHome }) => {
                     <li className="toc-item" >
                         <FontAwesomeIcon className="arrow" icon={faChevronRight} fade />
                         <a 
-                            href="#main"
+                            href="#about"
                             onClick={() => setShowHome(false)}                         
                         >
                             enter
