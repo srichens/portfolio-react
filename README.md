@@ -35,9 +35,10 @@ Click on the deployed link and navigate through the site; or from the ternimal, 
 
 ## Process Highlights
 
-1. This was a pretty fun project. I ended up spending some time creating a home page that I didn't include in the deployed app, since it didn't fit into the requirements, but I left the code in, commented out. It gave me more practice at responsiveness, if nothing else.
-2. I used plain CSS rather than Bootstrap, so that I could practice for the final project, so making sure everything was responsive took a while.
-3. It took me a while to get the title links to be highlighted when on each page. I used :target and IDs to correspond to the href, but that seemed like a workaround. Maybe if I had used Bootstrap there would've been an easier way. I tried to do it with useState, but I couldn't figure that out. Also, I then couldn't figure out how to get the About Me title to be highlighted when the app is first opened. Probably should have spend less time on the home page that I didn't include and wasn't required.
+1. This was a pretty fun project. *Note: I added a landing page for the website that was not part of the requirements (but hopefully won't count against me)*. I wanted to have fun with the design, but I wanted most of the application to be clean and easy to design. I used a conditional statement to render the landing page, and then render the main page (which is supposed to be the page loaded first according to the requirements).
+2. I used plain CSS rather than Bootstrap so that I could practice for the final project, so making sure everything was responsive took a while.
+3. It took me a while to get the title links to be highlighted when on each page. I used :target and IDs to correspond to the href, but that seemed like a workaround. I tried to do it with useState, but I couldn't figure that out. 
+4. I split up my CSS files per page. I realized early on that just because they were separate didn't mean they weren't connected. Every element of the same type had to have a specific name, just as if they were in one file. In the end, I liked using the separate CSS files, because one file would have been long and cumbersome. 
 
 ## License
 This product is licensed under MIT.
