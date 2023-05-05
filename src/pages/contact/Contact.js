@@ -28,21 +28,36 @@ const Contact = () => {
     
       e.preventDefault();
   
-    
-      if (!validateEmail(email)) {
-        setErrorMessage('Please enter a valid email');
-       
+      if (!name && !email && !message) {
+        setErrorMessage('Information is required to submit');
         return;
-             
+      }
+      else  if (!email && !message) {
+        setErrorMessage('Email address and message are required');
+        return;
+      }
+      else  if (!name && !message) {
+        setErrorMessage('Name and message are required');
+      return;
+      }
+      else  if (!name && !email) {
+        setErrorMessage('Name and email are required');
+      return;
+      } 
+      else if (!email) {
+        setErrorMessage('Email is required');
+        return;
+      }
+      else if (!validateEmail(email)) {
+        setErrorMessage('Please enter a valid email');       
+        return;             
       } else if (!name) {
         setErrorMessage('Name is required');
-
         return;
       } else if (!message) {
         setErrorMessage('Message is required');
         return;
-      }
-     
+      }     
   
      
       setName('');
