@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4f23b1ef.css",
-    "main.js": "/portfolio-react/static/js/main.6741adfb.js",
+    "main.css": "/portfolio-react/static/css/main.9e896c71.css",
+    "main.js": "/portfolio-react/static/js/main.662dab26.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/tech-blog.jpg": "/portfolio-react/static/media/tech-blog.c7902a12f719388fe394.jpg",
     "static/media/note-take.jpeg": "/portfolio-react/static/media/note-take.38be6167cbcd9eecfd2e.jpeg",
@@ -10,12 +10,12 @@
     "static/media/profilepic.jpg": "/portfolio-react/static/media/profilepic.8df13c2f4ecb4047f70c.jpg",
     "static/media/retro-great.svg": "/portfolio-react/static/media/retro-great.2ca8dad56ac44e89cc59.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.4f23b1ef.css.map": "/portfolio-react/static/css/main.4f23b1ef.css.map",
-    "main.6741adfb.js.map": "/portfolio-react/static/js/main.6741adfb.js.map",
+    "main.9e896c71.css.map": "/portfolio-react/static/css/main.9e896c71.css.map",
+    "main.662dab26.js.map": "/portfolio-react/static/js/main.662dab26.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f23b1ef.css",
-    "static/js/main.6741adfb.js"
+    "static/css/main.9e896c71.css",
+    "static/js/main.662dab26.js"
   ]
 }
