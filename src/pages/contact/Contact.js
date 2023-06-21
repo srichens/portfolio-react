@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
-
+import emailjs from '@emailjs/browser';
 import { validateEmail } from '../../utils/helpers';
 
 const Contact = () => {
@@ -8,6 +8,7 @@ const Contact = () => {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const form = useRef();
   
     const handleInputChange = (e) => {    
       const { target } = e;
@@ -57,8 +58,17 @@ const Contact = () => {
       } else if (!message) {
         setErrorMessage('Message is required');
         return;
-      }     
-  
+      };
+      
+      emailjs.sendForm('service_tbayp0d', 'template_050tgea', form.current, 'F0PAgaailPPYZv99y')
+      .then(
+        (result) => {          
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );  
      
       setName('');
       setMessage('');
@@ -69,7 +79,7 @@ const Contact = () => {
     return (
       <div className="contact">
         <h2>Contact</h2>
-        <form className="form">
+        <form ref={form} className="form">
           <label htmlFor="name">name:</label>
             <input className="contact-info"
             value={name}
