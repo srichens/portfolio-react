@@ -18,7 +18,7 @@ const Home = ( {setShowHome }) => {
                             href="#about"
                             onClick={() => setShowHome(false)}                         
                         >
-                            enter
+                            welcome
                         </a>
                     </li>
                 </ul>            
