@@ -3,8 +3,7 @@
     flex-direction: column;
     text-align: center;
     margin-left: 70px;
-    margin-right: 70px;     
-       
+    margin-right: 70px;            
 }
 
 .port-head {
@@ -12,6 +11,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkgray;
 }
+
 .port-container {
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +35,52 @@
 }
 
 .port-card1 {
+    background-image: url('./imgs/mixer.png'); 
+    background-size: 450px;
+    font-size: 85px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;       
+}
+
+.mixer-content {
+    display: flex;
+    flex-direction: column;     
+}
+
+.mixer-head {
+    margin-top: 70%;
+    margin-bottom: 20%;   
+}
+
+.m {
+    color: rgb(98, 0, 255);
+    text-shadow: 3px 2px #000634;   
+}
+
+.i {
+    color:rgb(170, 0, 255);
+    text-shadow: 3px 2px #000634;
+}
+
+.login-icon{
+    font-size: 80px;  
+    padding-top: 40px;
+    color: white;
+    filter: drop-shadow(3px 2px #000634);    
+}
+
+.e {
+    color:rgb(255, 0, 157);
+    text-shadow: 3px 2px #000634;    
+}
+
+.r {
+    color:rgb(255, 0, 85);
+    text-shadow: 3px 2px #000634;    
+}
+  
+.port-card2 {
     background-image: url('./imgs/retro-great.svg'); 
     background-size: 450px;
     font-size: 60px;
@@ -54,8 +100,8 @@
     margin-top: 68%;
     margin-bottom: 20%;
 }
-.retro-text {
 
+.retro-text {
     color: #FCAF3C;
 }
 
@@ -65,8 +111,8 @@
     text-decoration: none;
 }
 
-.port-card2 {
-    background-image: url('./imgs/shutterstock_1218763351\ copy\ 2.jpeg'); 
+.port-card3 {
+    background-image: url('./imgs/tech-blog.jpeg'); 
     background-repeat: no-repeat;
     background-position: -48px;
     background-size: 500px;  
@@ -74,8 +120,7 @@
     font-weight: 900;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;     
-    padding-top: 20px;
-     
+    padding-top: 20px;     
 }
 
 .tech-content {
@@ -90,43 +135,21 @@
     text-shadow: 4px 4px rgb(108, 108, 146);
 }
 
-.port-card3 {
-    background-image: url('./imgs/decisive.jpg'); 
-    background-size: 450px; 
-    font-size: 65px;
-    font-weight: 900;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;     
-  
-    font-style:italic;      
- }
-
- .dec-content {
-    display: flex;
-    flex-direction: column;        
-}
-
- .dec-head {
-    margin-top: 80%;
-    margin-bottom: 25%;     
-    color: rgb(255, 77, 0);
- }
-
- .port-card4 {
+.port-card4 {
     background-image: linear-gradient(to right, lightblue, darkblue);
     font-size: 45px;
     font-weight: 900;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;     
     color:white;    
- }
+}
 
- .weath-content {
+.weath-content {
     display: flex;
     flex-direction: column;     
 }
 
- .weath-head {
+.weath-head {
     display: flex;
     flex-direction: column;
     margin-top: 55%;
@@ -148,17 +171,37 @@
 .rain {
     color:rgb(194, 182, 182);      
     padding: 8px 20px;
-  }
+}
 
 .port-card5 {
+    background-image: url('./imgs/decisive.jpg'); 
+    background-size: 450px; 
+    font-size: 65px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;   
+    font-style:italic;      
+ }
+
+ .dec-content {
+    display: flex;
+    flex-direction: column;        
+}
+
+ .dec-head {
+    margin-top: 80%;
+    margin-bottom: 25%;     
+    color: rgb(255, 77, 0);
+ }
+
+.port-card6 {
     background-image: url('./imgs/note-take.jpeg'); 
     background-size: 450px;
     font-size: 55px;
     font-weight: bolder;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-stretch: wider;
-   
+    font-stretch: wider;   
 }
 
 .note-content {
@@ -184,68 +227,16 @@
     color: orange;
 }
 
-.port-card6 {
-    background-image: url('./imgs/no_mail_background.png'); 
-    background-size: 450px;
-    font-size: 85px;
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;    
-   
-}
-
-.code-content {
-    display: flex;
-    flex-direction: column;     
-}
-
- .code-head {
-    margin-top: 70%;
-    margin-bottom: 20%;
-    /* color: darkred; */
- }
-
-
- .heroku-icon, .github-icon { 
+.github-icon { 
     color: white;
     margin-top: 0;
     font-size: 75px;
- }
+}
 
-.heroku-black-icon, .github-black-icon { 
+.github-black-icon { 
     color: black;
     margin-top: 0;
     font-size: 75px;
- }
+}
 
- .m{
-    color: rgb(98, 0, 255);
-    text-shadow: 3px 2px #000634;
-    
-  
-  }
-  .i {
-    color:rgb(170, 0, 255);
-    text-shadow: 3px 2px #000634;
-   
-    
-  }
-  .login-icon{
-    font-size: 80px;  
-    padding-top: 40px;
-    color: white;
-    filter: drop-shadow(3px 2px #000634);
-    
-    
-  }
-  .e {
-    color:rgb(255, 0, 157);
-    text-shadow: 3px 2px #000634;
-    
-  }
-  .r {
-    color:rgb(255, 0, 85);
-    text-shadow: 3px 2px #000634;
-    
-  }
-  
+ 
