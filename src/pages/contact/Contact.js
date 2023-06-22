@@ -1,6 +1,9 @@
 import React, { useState, useRef } from 'react';
 import './Contact.css';
+import Navbar from '../../components/navbar/Navbar.js';
+import Footer from '../../components/footer/Footer.js';
 import emailjs from '@emailjs/browser';
+
 import { validateEmail } from '../../utils/helpers';
 
 const Contact = () => {
@@ -58,8 +61,8 @@ const Contact = () => {
       } else if (!message) {
         setErrorMessage('Message is required');
         return;
-      };
-      
+      };     
+
       emailjs.sendForm('service_tbayp0d', 'template_050tgea', form.current, 'F0PAgaailPPYZv99y')
       .then(
         (result) => {          
@@ -77,6 +80,8 @@ const Contact = () => {
     };
   
     return (
+      <div className="contact-container"> 
+      <Navbar />
       <div className="contact">
         <h2>Contact</h2>
         <form ref={form} className="form">
@@ -105,13 +110,15 @@ const Contact = () => {
             type="message"
            
           />
-          <button className="contact-btn" type="button" onClick={handleFormSubmit}>Submit</button>
+          <button className="contact-btn" type="button" onClick={handleFormSubmit} >Submit</button>
         </form>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+      </div>
+      <Footer />
       </div>
     );
   };

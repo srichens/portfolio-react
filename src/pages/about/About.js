@@ -1,8 +1,12 @@
 import './About.css';
 import profilepic from './images/profilepic.jpg';
+import Navbar from '../../components/navbar/Navbar.js';
+import Footer from '../../components/footer/Footer.js';
 
 const About = () => {    
     return (
+        <div className="about-container">
+            <Navbar />
         <div className="about">
             <div className="pic-container">
                 <div className="profile-pic">
@@ -16,6 +20,9 @@ const About = () => {
             
             
         </div>
+        <Footer />
+        </div>
+      
     )
 };
 

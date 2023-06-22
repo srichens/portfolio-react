@@ -3,9 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCompactDisc, faCloudShowersHeavy } from '@fortawesome/pro-solid-svg-icons';
 import { faPencil } from '@fortawesome/pro-duotone-svg-icons';
 import { FaGithub, FaSun} from 'react-icons/fa';
+import Navbar from '../../components/navbar/Navbar.js';
+import Footer from '../../components/footer/Footer.js';
 
 const Portfolio = () => {
     return (
+        <div className="portfolio-container">
+            <Navbar />
         <div className="portfolio">
             <h2 className="port-head">Portfolio</h2>
             <div className="port-container">                
@@ -92,6 +96,8 @@ const Portfolio = () => {
                     </div>
                 </div>                
             </div>
+        </div>
+        <Footer />
         </div>
     )
 };

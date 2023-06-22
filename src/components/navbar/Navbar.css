@@ -19,6 +19,16 @@
     padding-right: 25px;      
   }
 
+  .nav-item a.active {
+    color: lightgray;
+    font-weight: 800;    
+  }
+  
+  .nav-item a.active:hover {
+    color: lightgray;
+    font-weight: 800;    
+  }
+
   .nav-item a{
     color: white;
     font-size: 30px;

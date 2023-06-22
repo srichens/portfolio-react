@@ -1,7 +1,8 @@
 import './Home.css';
 import Html from '../../components/html/Html';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/pro-regular-svg-icons'
+import { faChevronRight } from '@fortawesome/pro-regular-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 const Home = ( {setShowHome }) => {
@@ -14,12 +15,13 @@ const Home = ( {setShowHome }) => {
                 <ul className="toc">
                     <li className="toc-item" >
                         <FontAwesomeIcon className="arrow" icon={faChevronRight} fade />
-                        <a 
+                        {/* <a 
                             href="#about"
                             onClick={() => setShowHome(false)}                         
                         >
                             welcome
-                        </a>
+                        </a> */}
+                     <Link to="/portfolio-react/about">welcome</Link>
                     </li>
                 </ul>            
             </div>

@@ -1,7 +1,11 @@
 import './Resume.css';
+import Navbar from '../../components/navbar/Navbar.js';
+import Footer from '../../components/footer/Footer.js';
 
 const Resume = () => {
     return (
+        <div className="resume-container">
+            <Navbar />
         <div className="resume">
             <h2 className="resume-head">Resume</h2>
                 <p className="resume-p">Download my <a href="https://drive.google.com/file/d/1egJqO50FHVw0FrNkig2pUSwMSVQvph9t/view?usp=sharing" target="blank" download>resume</a>
@@ -29,6 +33,8 @@ const Resume = () => {
                     <li>GraphQL</li>
                 </ul>
             </div>  
+        </div>
+        <Footer />
         </div>
     )
 };
