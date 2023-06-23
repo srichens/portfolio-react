@@ -5,7 +5,7 @@ import { faChevronRight } from '@fortawesome/pro-regular-svg-icons';
 import { Link } from 'react-router-dom';
 
 
-const Home = ( {setShowHome }) => {
+const Home = () => {
     
     return (
         <div className="home-container">
@@ -14,13 +14,7 @@ const Home = ( {setShowHome }) => {
                 <h2 className="console-head">Console</h2>
                 <ul className="toc">
                     <li className="toc-item" >
-                        <FontAwesomeIcon className="arrow" icon={faChevronRight} fade />
-                        {/* <a 
-                            href="#about"
-                            onClick={() => setShowHome(false)}                         
-                        >
-                            welcome
-                        </a> */}
+                        <FontAwesomeIcon className="arrow" icon={faChevronRight} fade />                  
                      <Link to="/portfolio-react/about">welcome</Link>
                     </li>
                 </ul>            

@@ -6,7 +6,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     font-weight: bolder;
     font-size: 20px;   
-    padding-top: 25px;
+    padding-top: 25px;   
+}
+
+.head-section, .name-section, .tag-section, .end-section {
     padding-left: 40px;
 }
 
@@ -107,15 +110,21 @@
 @media only screen and (max-width: 992px) {
     .html  {   
         width: 100%;
-        height: 80%;
+        height: 80%;      
+    }
+
+    .head-section, .name-section, .tag-section, .end-section {
         padding-left: 25px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .html  {       
-         font-size: 18px;
-         padding-left: 15px;
+         font-size: 18px;      
+    }
+
+    .head-section, .name-section, .tag-section, .end-section {
+        padding-left: 15px;
     }
 
     .indent1 {
@@ -174,7 +183,10 @@
 
 @media only screen and (max-width: 475px) {
     .html {      
-        font-size: 12px;
+        font-size: 12px;        
+    }
+
+    .head-section, .name-section, .tag-section, .end-section {
         padding-left: 5px;
     }
 
