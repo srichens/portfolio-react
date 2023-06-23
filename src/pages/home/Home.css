@@ -1,47 +1,36 @@
 .home-container {
-    height: 100vh;
-    display: flex;
-    background-color: white;
+    display: flex;  
+    height: 100vh;  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkgray;  
-    min-width: 400px;       
+    overflow: hidden;
 }
 
 .console {
-    height: 100vh;
-    width: 20%;
-    min-width: 300px;
-    background-color: white;
     display: flex;
-    flex-direction: column;
-    padding-left: 20px;  
+    flex-direction: column;  
+    width: 20%;   
+    
 }
 
 .console-head {   
+    margin-bottom: 0;
+    padding-left: 10px;   
     padding-bottom: 10px;
-    border-bottom: solid darkgray;    
+    border-bottom: solid darkgray;     
 }
 
 .toc {
-   margin: 5px;  
-   color: darkgray;
+   margin-top: 10px;  
    font-size: 25px;
-   font-weight: bolder;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-   list-style: none;    
-   display: flex;
-   flex-direction: column;  
-   align-items: flex-start;   
-}
-
-.toc-item{
-    display: flex;
-    align-content: left;   
+   font-weight: bolder;  
+   list-style: none;   
+   padding-right: 5px;   
 }
 
 .arrow {
-   padding-right: 15px;
-   padding-top: 5px;
+   padding-right: 10px;
+   padding-top: 5px;   
 }
 
 .toc-item a{
@@ -49,44 +38,44 @@
     font-size: 25px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    padding: 5px 5px;
-    border-radius: none;    
-    background-color: white;
-    text-decoration: none;
-    min-width: none;    
+    text-decoration: none;   
 }
 
 .toc-item a:hover{
-    color: darkgray;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    padding: 5px 5px;
-    border-radius: none;
-    background-color: white;   
-    min-width: none;    
+    color: rgb(145, 125, 159);   
 }
 
-@media only screen and (max-width: 1268px) {  
-    .home-container {
+@media only screen and (max-width: 992px) {
+    .home-container  {       
         flex-direction: column;
-        align-items: flex-start;
-        min-height: 100vh;
-        position: relative;  
-    }
-    .console {
-        position: abosulte;
-        bottom:0;
-        height: 2.5rem;   
-        border-bottom: solid 4px darkgray;
-        width: 100%; 
-        padding-bottom: 10px;
-        margin-left: 10px;
+    } 
+
+    .console  {
+        width: 100%;
+        height: 20%;         
     }
 
-    .console-head {
-       
-        border: none;
+    .toc {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .console-head {   
+        padding-bottom: 5px;     
+        margin-top: 5px;
     }
 
-  }     
+    .toc {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 475px) { 
+    .toc-item a, .console-head {
+        font-size: 20px;
+    } 
+}
+
+
+

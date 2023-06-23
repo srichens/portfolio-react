@@ -1,4 +1,4 @@
-import Main from './pages/main/Main';
+// import Main from './pages/main/Main';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
@@ -30,10 +30,10 @@ function App() {
           path="/portfolio-react" 
           element={<Home />} 
         />
-        <Route 
+        {/* <Route 
           path="/portfolio-react/main" 
           element={<Main />} 
-        />
+        /> */}
         <Route 
           path="/portfolio-react/about" 
           element={<About />} 

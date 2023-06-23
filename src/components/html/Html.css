@@ -1,20 +1,21 @@
-.html {
-    background-color: rgb(145, 125, 159);
-    padding-top: 20px;
-    padding-left: 50px;  
+.html { 
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: column;    
     width: 80%;
-    min-width: 950px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    font-weight: bolder;      
-    border-right: solid 12px darkgray;
-    
+    background-color: rgb(145, 125, 159);   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-weight: bolder;
+    font-size: 20px;   
+    padding-top: 25px;
+    padding-left: 40px;
 }
+
 .no-indent, .indent1, .indent2, .name, .tag {
-    margin: 5px;
+    margin: 5px;     
+}
+
+.no-indent {
+    margin-left: 15px;
 }
 
 .indent1 {
@@ -25,9 +26,9 @@
     margin-left: 100px;
 }
 
-.name {    
+.name {       
     margin-left: 150px;
-    margin-top: 0px;
+    margin-top: 0px;  
 }
 
 .name-text {
@@ -77,125 +78,120 @@
     1px 30px 60px rgba(16,16,16,0.4);
 }
 
-@media only screen and (max-width: 1268px) {  
-    .html {
-        font-size: 20px;
-        padding-left: 40px;
-        padding-bottom: 2.5rem;   
-        max-height: 600px;
-        border-bottom: solid 12px darkgray;
-        border-right: none;
-        width: 100%;
-    } 
+@media only screen and (max-width: 1200px) {
     .indent1 {
         margin-left: 25px;
     }
+
     .indent2 {
         margin-left: 50px;
     }
-    .name {
-        margin-left: 100px;
-    }
-    .tag {
-        margin-left: 150px;
-    }
-   
-  }      
 
-  @media only screen and (max-width: 935px) {  
-    .html {
-        padding-left: 20px;
-        font-size: 20px;
-    } 
+    .name {       
+        margin-left: 75px;
+    }
+
+    .name-text {
+        font-size: 85px;
+    }
+
+    .tag {    
+        margin-left: 125px;  
+    }
+
+    .tag-text {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .html  {   
+        width: 100%;
+        height: 80%;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .html  {       
+         font-size: 18px;
+         padding-left: 15px;
+    }
+
     .indent1 {
-        margin-left: 10px;
-    }
-    .indent2 {
-        margin-left: 25px;
-    }
-
-    .name{
-      
-        margin-left: 40px;
-    }  
-    .name-text{
-        font-size: 95px;
-        
-    }  
-    .tag-text {
-        font-size: 45px;
-        
-    }
-    .tag {
-    
-        margin-left: 90px;
-    }
-  }
-    @media only screen and (max-width: 804px) {  
-       
-        .name{
-          
-            margin-left: 30px;
-        }  
-        .name-text{
-            font-size: 85px;
-            
-        }  
-        .tag-text {
-            font-size: 35px;
-            
-        }
-        .tag {
-    
-            margin-left: 80px;
-        }
-
-  }      
-
-  @media only screen and (max-width: 719px) {  
-
-    .name-text{
-        font-size: 75px;
-        
-    }  
-    .tag-text {
-        font-size: 30px;
-        
-    }
-   
-}    
-
-@media only screen and (max-width: 650px) {  
-    .html {
-        font-size: 15px;
-    }
-
-    .name-text{
-        font-size: 55px;
-        
-    }  
-    .tag-text {
-        font-size: 25px;
-        
-    }
-   
-}    
-
-@media only screen and (max-width: 500px) {  
-    .html {
-        padding-left: 10px;
-    } 
-    .indent2 {
         margin-left: 20px;
     }
 
-    .name-text{
+    .indent2 {
+        margin-left: 40px;
+    }
+
+    .name {       
+        margin-left: 60px;
+    }
+
+    .name-text {
+        font-size: 65px;
+    }
+
+    .tag {    
+        margin-left: 85px;  
+    }
+
+    .tag-text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .html  {     
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .no-indent, .indent1, .indent2, .name, .tag {
+        margin-bottom: 10px;      
+    }
+
+    .name-text {
         font-size: 50px;
-        
-    }  
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .html {      
+        font-size: 14px;
+    }
+
+    .name-text {
+        font-size: 45px;
+    }
+
+    .tag-text {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .html {      
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .indent2 {
+        margin-left: 35px;
+    }
+
+    .name-text {
+        font-size: 35px;
+    }
+
     .tag-text {
         font-size: 20px;
-        
     }
-   
-}    
+}
+
+
+
+
+
