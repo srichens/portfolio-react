@@ -15,7 +15,16 @@ const About = () => {
                 </div>
                 <div className="bio">
                     <h2>About Me</h2>
-                    <p>Sarah needs a job and would like to be a software developer.</p>
+                    <p>Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.
+                        Sarah needs a job and would like to be a software developer. Sarah needs a job and would like to be a software developer.</p>
                 </div>               
             </div>
             <Footer />

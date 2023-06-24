@@ -1,166 +1,145 @@
 .nav-container {
-  overflow:hidden;  
-}
-
-.header {
-  padding-left: 50px;
   display: flex;
-  height: 20%;
-  width: 100%;    
+  align-items: center;
+  justify-content: space-between;
   background-color: rgb(145, 125, 159);  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-bottom: solid 8px lightgray;
+ 
 }
 
-h1, .title {
-  display: flex;
-  align-items: center;
-  width: 80%;
-  padding: 20px;
+.header {
+  padding-right: 15px; 
+  padding-left: 35px;
+  margin: 20px;
+}
+
+.title {
   color: white;
   font-size: 60px;  
+  text-decoration: none;   
+}
+
+.navbar { 
+  display: flex;
+  margin: 20px;
+}
+
+.nav { 
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;  
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+.nav-item { 
+  padding: 0px 15px 0px 15px;
+}
+
+.nav-item a.active {
+  color: lightgray;
+  font-weight: 800;    
+}
+
+.nav-item a.active:hover {
+  color: lightgray;
+  font-weight: 800;    
+}
+
+.nav-item a{
+  color: white;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  min-width: 160px;
   text-decoration: none;    
-}  
-  
-  .navbar{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;    
+}
+
+.nav-item a:hover, .nav-item-about a:hover{
+  color: rgb(75, 60, 85);
+}
+
+@media only screen and (max-width: 1200px) {    
+  .header {
+    padding-right: 0;
+    margin-right: 0;
+    width: 60%;    
   }
 
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 75%;
-    height: 50%;          
+  .navbar {  
+    margin-right: 0;  
   }
 
   .nav-item {
-    text-align: center;
-    max-width: 30%; 
-    padding-right: 25px;      
-  }
-
-  .nav-item a.active {
-    color: lightgray;
-    font-weight: 800;    
-  }
-  
-  .nav-item a.active:hover {
-    color: lightgray;
-    font-weight: 800;    
-  }
-
-  .nav-item a{
-    color: white;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    min-width: 160px;
-    text-decoration: none;    
-  }
-
-  .nav-item a:hover, .nav-item-about a:hover{
-    color: rgb(75, 60, 85);
-  }
- 
-  :target {
-    color: lightgray;
-    font-weight: 800;
-  } 
-
-  #about, #portfolio, #contact, #resume {
-    padding: 70px 5px;
-  }
-  
-  .navbar ul {
-    display: flex;      
-    justify-content: space-around;  
-    align-items: center;
-    width: 100%;  
-    list-style-type: none;
-    font-size: x-large;     
-    
-  }
- 
-
-  @media only screen and (max-width: 1263px) {  
-    #about, #portfolio, #contact, #resume {
-      padding: 90px 0px;    
-    }  
-
-    h1{ 
-      width: 60%;  
-    }
- }
-
-  @media only screen and (max-width: 1124px) {  
-    .nav  {
-      width: 100%;   
-    }
-
-   #about, #portfolio, #contact, #resume {
-      padding: 100px 0px;
-    }
-
-    h1{ 
-      align-items: left;
-      width: 40%;  
-      }
- }
-
-  @media only screen and (max-width: 1024px) {         
-    .nav-item {
-      min-width: 40%;      
-    }  
-
-    #about, #portfolio, #contact, #resume {
-      padding: 10px 5px;
-    }
-      
-    h1 { 
-      width: 40%;  
-    }
-  }        
-
-  @media only screen and (max-width: 780px) {
-    #about, #portfolio, #contact, #resume {
-    padding: 10px 5px;
-    }
- 
-    .nav {
-      justify-content: center;
-      flex-wrap:wrap;      
-    }
-  
-   .nav-item {
-     min-width: 100%;
-    }
-
-    .nav-item a {      
-      padding: 0px 10px;     
-    }
-  }    
-
-@media only screen and (max-width: 640px) {  
-
-  #about, #portfolio, #contact, #resume {
-    padding: 5px 0px;
-  }
-  .nav-item a {
-  padding: 0px 0px;  
-  font-size: 25px;
-  
-  }
-  :target {
-   padding: 0px 10px;
-   border-radius: 25px;
-  } 
-
-  .navbar {
-    width: 60%;
-  }
-
+    min-width: 35%;
+  }   
 }
 
+@media only screen and (max-width: 992px) {    
+  .nav-container {
+    justify-content: center;
+  }  
+  
+  .header {
+    max-width: 50%;
+    padding-left: 5px;  
+  }
+
+  .title {
+    font-size: 55px;
+  }  
+
+  .navbar {
+    width: 50%;
+    margin-left: 0;
+    justify-content: center; 
+  }
+
+  .nav {
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    width: 44%;
+    padding: 0px 5px 0px 5px;
+    margin-right: 0; 
+  }   
+
+  .nav-item a{   
+    font-size: 25px;
+  }
+}        
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 50%;  
+    text-align: center;
+  }
+
+  .navbar {
+    margin: 0;
+    text-align: center;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-item {
+    width: 100%;
+  }   
+}    
+
+@media only screen and (max-width: 475px) { 
+  .title {
+    font-size: 52px;
+  }
+
+  .nav-item a{   
+    font-size: 22px;
+  }
+}
