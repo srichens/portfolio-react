@@ -1,5 +1,8 @@
 .contact-container {
-  width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;   
+    padding-bottom: 2.5rem;    
 }
 
 .contact {
@@ -9,15 +12,15 @@
   color: darkgray;
   font-size: 25px;  
   margin-left: 70px;
-  margin-right: 70px;    
+  margin-right: 70px;   
+  padding-bottom: 50px;
 }
-
-
 
 .form {
   margin: 0px;
   width: 45%;
   min-width: 350px;
+ 
 }
 
 .form input, .form textarea {
@@ -33,6 +36,7 @@
 .contact-info {
   height: 30px;
 }
+
 .message { 
   height: 250px;
 }
@@ -52,6 +56,42 @@
 .contact-btn:hover {
   background-color: rgb(145, 125, 159);
 }
+
 .error-text {
   color: darkred;
+}
+
+@media only screen and (max-width: 1200px) { 
+  .form {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 992px) { 
+  .form {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) { 
+  .form {
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width: 475px) { 
+  .contact-title {  
+    text-align: center;
+  }
+
+  .form {   
+    min-width: 250px;
+  }
+
+  .contact-btn {   
+    min-width: 100px;
+  }
 }

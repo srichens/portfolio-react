@@ -3,18 +3,23 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;     
+    height: 2.5rem;  
+    bottom: 0;
+    position: absolute;   
   }
+
   .foot {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;   
- 
+    justify-content: center;  
+   
   }
 
   .foot-item a{      
-     text-decoration: none;         
+     text-decoration: none;    
+      
   }
   
   .footer ul {
@@ -24,12 +29,12 @@
     width: 60%;   
     list-style-type: none;   
     text-align: center;
-    
+    padding-left: 0px;
   }
 
   .foot li {      
-    min-width: 25%;  
-   
+    min-width: 20%;     
+    
   }
 
   .github-grey-icon { 
@@ -38,28 +43,14 @@
     font-size: 55px;
  }
 
-
-  @media only screen and (max-width: 780px) {
-    .footer ul {
-      justify-content: center;
-      flex-wrap:wrap;      
-    }
-
-    .foot-item a {      
-      padding: 0px 10px;
-      border-radius: 25px;
-      }
-  }    
-
-@media only screen and (max-width: 640px) {  
-  .foot-item a {
-  padding: 0px 10px;
-  border-radius: 25px;
+ @media only screen and (max-width: 1200px) {
+  .foot li {      
+    min-width: 25%;         
   }
 }
 
-@media only screen and (max-width: 515px) {  
-  .foot-item a {
-    font-size: 25px;      
+@media only screen and (max-width: 475px) { 
+  .foot li {      
+    min-width: 30%;     
   }
 }

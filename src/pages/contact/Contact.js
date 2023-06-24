@@ -83,7 +83,7 @@ const Contact = () => {
       <div className="contact-container"> 
       <Navbar />
       <div className="contact">
-        <h2>Contact</h2>
+        <h2 className="contact-title">Contact</h2>
         <form ref={form} className="form">
           <label htmlFor="name">name:</label>
             <input className="contact-info"
