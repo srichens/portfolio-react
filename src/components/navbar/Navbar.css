@@ -34,7 +34,7 @@
 }
 
 .nav-item { 
-  padding: 0px 15px 0px 15px;
+  padding: 0px 20px 0px 20px;
 }
 
 .nav-item a.active {
@@ -71,7 +71,7 @@
   }
 
   .nav-item {
-    min-width: 35%;
+    min-width: 35%; 
   }   
 }
 

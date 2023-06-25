@@ -3,6 +3,7 @@ import './Contact.css';
 import Navbar from '../../components/navbar/Navbar.js';
 import Footer from '../../components/footer/Footer.js';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -67,6 +68,11 @@ const Contact = () => {
       .then(
         (result) => {          
           console.log(result.text);
+          Swal.fire({
+            icon: 'success',
+            title: 'Thank you for your message!',
+            text: 'I look forward to speaking with you.',
+          });
         },
         (error) => {
           console.log(error.text);

@@ -13,14 +13,13 @@
   font-size: 25px;  
   margin-left: 70px;
   margin-right: 70px;   
-  padding-bottom: 50px;
+  padding-bottom: 50px; 
 }
 
 .form {
   margin: 0px;
   width: 45%;
-  min-width: 350px;
- 
+  min-width: 350px; 
 }
 
 .form input, .form textarea {
@@ -71,18 +70,35 @@
   .form {
     width: 75%;
   }
-
 }
 
 @media only screen and (max-width: 768px) { 
+  .contact {
+    width: 80%;   
+     margin-left: 60px;
+    margin-right: 60px; 
+  }
+
   .form {
     width: 100%;
   }
-
 }
 
+@media only screen and (max-width: 600px) { 
+  .contact {
+    width: 85%;   
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+}
 
 @media only screen and (max-width: 475px) { 
+  .contact {
+    width: 90%;   
+    margin-left: 20px;
+    margin-right: 20px; 
+  }
+
   .contact-title {  
     text-align: center;
   }
