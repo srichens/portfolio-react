@@ -13,13 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;  
-   
+    justify-content: center;     
   }
 
   .foot-item a{      
-     text-decoration: none;    
-      
+     text-decoration: none;          
   }
   
   .footer ul {
@@ -33,8 +31,7 @@
   }
 
   .foot li {      
-    min-width: 20%;     
-    
+    min-width: 20%;         
   }
 
   .github-grey-icon { 

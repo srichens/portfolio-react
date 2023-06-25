@@ -1,39 +1,20 @@
-// import Main from './pages/main/Main';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
 import Contact from './pages/contact/Contact';
 import Resume from './pages/resume/Resume';
 import Navbar from './components/navbar/Navbar';
-// import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function App() { 
-//   return (
-//     <div className="App">
-//       <Main/>                    
-//     </div>
-//   );
-// }
-  // const [showHome, setShowHome] = useState(true); 
-  
+function App() {   
   return (
-    // <div className="App">
-    //  { showHome?<Home setShowHome={setShowHome} /> : <Main/>  };  
-                 
-    // </div>
-
     <Router>
     <div>  
      <Routes>
         <Route 
           path="/portfolio-react" 
           element={<Home />} 
-        />
-        {/* <Route 
-          path="/portfolio-react/main" 
-          element={<Main />} 
-        /> */}
+        />    
         <Route 
           path="/portfolio-react/about" 
           element={<About />} 
@@ -56,11 +37,9 @@ function App() {
         />
      
         </Routes>        
-    </div>
-   
+    </div>   
     </Router>
   );
 }
-
 
 export default App;
