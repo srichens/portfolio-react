@@ -8,7 +8,7 @@ const Resume = () => {
             <Navbar />
         <div className="resume">
             <h2 className="resume-head">Resume</h2>
-                <p className="resume-p">Download my <a href="https://drive.google.com/file/d/1xZ3jo_WnOrky9jeHvsOqj02dfywQuYBf/view?usp=sharing"target="blank" download>resume</a>
+                <p className="resume-p">Download my <a href="https://drive.google.com/file/d/1NawbchVszyvBtxv3xE8sajI3yoKR6hCm/view?usp=sharing" target="blank" download>resume</a>
                 </p>
             <div className="resume-section">  
                 <h3 className="resume-sec-head">Front End Proficiencies</h3>
