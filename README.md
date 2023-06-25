@@ -40,6 +40,8 @@ Click on the deployed link and navigate through the site; or from the ternimal, 
 3. It took me a while to get the title links to be highlighted when on each page. I used :target and IDs to correspond to the href, but that seemed like a workaround. I tried to do it with useState, but I couldn't figure that out. 
 4. I split up my CSS files per page. I realized early on that just because they were separate didn't mean they weren't connected. Every element of the same type had to have a specific name, just as if they were in one file. In the end, I liked using the separate CSS files, because one file would have been long and cumbersome. 
 
+*Update: After bootcamp, I added React router to simplify navigation, added Emailjs to make the contact form functional, and cleaned up/improved responsiveness.
+
 ## License
 This product is licensed under MIT.
 
