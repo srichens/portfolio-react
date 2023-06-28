@@ -55,8 +55,8 @@
 }
 
 .mixer-head {
-    margin-top: 70%;
-    margin-bottom: 20%;   
+    margin-top: 58%;
+    margin-bottom: 0;
 }
 
 .m {
@@ -85,6 +85,18 @@
     color:rgb(255, 0, 85);
     text-shadow: 3px 2px #000634;    
 }
+
+.tag1 {
+    font-size: 15px;
+    color:rgb(170, 0, 255);
+    margin-top: 0;      
+}
+
+.tech1 {
+    font-size: 17px;    
+    color: rgb(98, 0, 255);
+    margin-bottom: 5%;
+}
   
 .port-card2 {
     background-image: url('./imgs/retro-great.svg'); 
@@ -103,12 +115,24 @@
 }
 
 .retro-head {
-    margin-top: 68%;
-    margin-bottom: 20%;
+    margin-top: 65%;
+    margin-bottom: 0;
 }
 
 .retro-text {
     color: #FCAF3C;
+}
+
+.tag2 {
+    font-size: 14px;
+    color: #FCAF3C;
+    margin-top: 0;       
+}
+
+.tech2 {
+    font-size: 16px;    
+    color: white;
+    margin-bottom: 8%;
 }
 
 .port-container a {
@@ -122,7 +146,7 @@
     background-repeat: no-repeat;
     background-position: -48px;
     background-size: 500px;  
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;     
@@ -136,9 +160,24 @@
 
 .tech-head {
     margin-top: 80%;
-    margin-bottom: 30%;
+    margin-bottom: 0%;
     color:rgb(9, 9, 71);  
     text-shadow: 4px 4px rgb(108, 108, 146);
+}
+
+.tag3 {
+    font-size: 13px;
+    color: black;
+    margin-top: 0;   
+    padding-top: 10px;
+    
+}
+
+.tech3 {
+    font-size: 15px;    
+    color: rgb(108, 108, 146);
+    margin-top: 0;  
+    margin-bottom: 20%;
 }
 
 .port-card4 {
@@ -158,8 +197,8 @@
 .weath-head {
     display: flex;
     flex-direction: column;
-    margin-top: 55%;
-    margin-bottom: 15%;       
+    margin-top: 50%;
+    margin-bottom: 0%;       
 }
 
 .weath-icons {
@@ -179,6 +218,19 @@
     padding: 8px 20px;
 }
 
+.tag4 {
+    font-size: 15px;
+    color: white;
+    margin-top: 8px;         
+}
+
+.tech4 {
+    font-size: 17px;    
+    color: orange;
+    margin-top: 8px;  
+    margin-bottom: 5%;
+}
+
 .port-card5 {
     background-image: url('./imgs/decisive.jpg'); 
     background-size: 450px; 
@@ -195,10 +247,23 @@
 }
 
  .dec-head {
-    margin-top: 80%;
-    margin-bottom: 25%;     
+    margin-top: 62%;
+    margin-bottom: 0%;     
     color: rgb(255, 77, 0);
  }
+
+ .tag5 {
+    font-size: 15px;
+    color: darkblue;
+    margin-top: 0;  
+    padding-bottom: 2px    
+}
+
+.tech5 {
+    font-size: 17px;    
+    color: white;
+    margin-bottom: 8%;
+}  
 
 .port-card6 {
     background-image: url('./imgs/note-take.jpeg'); 
@@ -219,8 +284,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 70%;
-    margin-bottom: 20%;
+    margin-top: 65%;
+    margin-bottom: 0%;
     padding-left: 45px;  
     color: black;  
 }
@@ -233,6 +298,19 @@
     color: orange;
 }
 
+.tag6 {
+    font-size: 15px;
+    color: black;
+    margin-top: 0;  
+    padding-bottom: 10px    
+}
+
+.tech6 {
+    font-size: 17px;    
+    color: orange;
+    margin-bottom: 8%;
+}
+
 .github-icon { 
     color: white;
     margin-top: 0;
@@ -243,6 +321,13 @@
     color: black;
     margin-top: 0;
     font-size: 75px;
+}
+
+.asterik {
+    text-align: center;
+    color: darkgray;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 1200px) {    
@@ -261,7 +346,7 @@
     }
 
     .weath-head {      
-        margin-top: 58%;          
+        margin-top: 56%;          
     }
 
     .sun {     
@@ -271,6 +356,23 @@
     .rain {        
         padding: 8px 15px;
     }    
+
+    .tag4 {      
+        margin-top: 0px;         
+    }
+    
+    .tech4 {     
+        margin-top: 0px;  
+     
+    }
+
+    .tag5 {
+      
+        padding-bottom: 0px;
+    }
+    .tech5 {
+        margin-top: 0px;  
+    }
   }
   
   @media only screen and (max-width: 992px) {       
@@ -287,10 +389,18 @@
     }
 
     .mixer-head {
-        margin-top: 65%;
-        margin-bottom: 15%;   
+        margin-top: 60%;
+        margin-bottom: 0%;   
     }
 
+    .tag1 {
+        font-size: 14px;               
+    }
+    
+    .tech1 {   
+        margin-top: 0;  
+    }
+      
     .port-card2 {        
         background-size: 375px;
         font-size: 55px;      
@@ -301,13 +411,22 @@
         font-size: 45px;    
     }
     .tech-head {
-        margin-top: 85%;
-        margin-bottom: 25%;      
+        margin-top: 75%;
+        margin-bottom: 0%;      
+    }
+
+    .tag3 {
+        font-size: 12px;      
+        padding-top: 2px;        
+    }
+    
+    .tech3 {
+        font-size: 14px;        
     }
 
     .weath-head {      
         margin-top: 56%;
-        margin-bottom: 10%;          
+        margin-bottom: 0%;          
     }
 
     .sun {     
@@ -318,10 +437,18 @@
         padding: 8px 10px;
     }
 
+    .tech4 {
+        margin-bottom: 2%;
+    }
+
     .dec-head {
-        margin-top: 75%;
-        margin-bottom: 20%;            
+        margin-top: 65%;
+        margin-bottom: 0%;            
      }
+
+     .tech5 {     
+        margin-bottom: 4%;
+    }
 
      .port-card6 {      
         font-size: 45px;    

@@ -27,6 +27,8 @@ const Portfolio = () => {
                                     <span className="r">r</span>
                                 </h3>
                             </a>
+                            <p className="tag1">An app for helping artists overcome artist block*</p>
+                            <p className="tech1">MERN Stack</p>
                             <a href="https://github.com/Gatewayss/mixer" target="blank">
                                 <p className="github-icon"><FaGithub/></p>
                             </a>
@@ -47,6 +49,8 @@ const Portfolio = () => {
                                     </span>
                                 </h3>
                             </a>
+                            <p className="tag2">A social media app for people ages 45 and up*</p>
+                            <p className="tech2">Node, Express, Javascript, CSS, Handlebars, MySQL</p>
                             <a href="https://github.com/srichens/retro-great" target="blank">
                                 <p className="github-icon"><FaGithub/></p>
                             </a>
@@ -57,6 +61,8 @@ const Portfolio = () => {
                             <a href="https://techblog74.herokuapp.com/" target="blank">
                                 <h3 className="tech-head">The Tech <br></br>Blog</h3>
                             </a>
+                            <p className="tag3">A community blog for web developers*</p>
+                            <p className="tech3">Node, Express, Javascript, <br></br>Tailwind, Handlebars, MySQL</p>
                             <a href="https://github.com/srichens/tech-blog" target="blank">
                                 <p className="github-icon"><FaGithub/></p>
                             </a>
@@ -73,7 +79,9 @@ const Portfolio = () => {
                                     </span>
                                     Dashboard
                                 </h3>
-                            </a>                 
+                            </a>      
+                            <p className="tag4">A weather forecast app</p>
+                            <p className="tech4">Javascript, CSS, HTML</p>           
                             <a href="https://github.com/srichens/weather-dashboard" target="blank">
                                 <p className="github-icon"><FaGithub/></p>
                             </a>
@@ -84,9 +92,11 @@ const Portfolio = () => {
                             <a href="https://srichens.github.io/decisive/" target="blank">
                                 <h3 className="dec-head">Decisive</h3>
                             </a>
+                            <p className="tag5">An app that answers the question, "Should I go out?"</p>
+                            <p className="tech5">Javascript, Tailwind, HTML</p>
                             <a href="https://github.com/srichens/decisive" target="blank">
                                 <p className="github-icon"><FaGithub/></p>
-                            </a>
+                            </a>                     
                         </div>
                     </div>           
                     <div className="port-card6">
@@ -98,14 +108,17 @@ const Portfolio = () => {
                                         <FontAwesomeIcon icon={faPencil}  bounce/>
                                     </span>
                                 </h3>
+                            <p className="tag6">A note taking app</p>
+                            <p className="tech6">Node, Express, Javascript, CSS, HTML</p>
                             </a>                                        
                             <a href="https://github.com/srichens/note-taker" target="blank">
                                 <p className="github-black-icon"><FaGithub/></p>
                             </a>
                         </div>
                     </div>                
-                </div>
+                </div>                
             </div>
+            <div className="asterik">*This app requires authentication. Please use guest@gmail.com and password12345 or sign up!</div>
             <Footer />
         </div>
     )
