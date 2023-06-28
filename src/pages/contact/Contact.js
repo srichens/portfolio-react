@@ -123,6 +123,7 @@ const Contact = () => {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+        <div className="email-contact">You can also email me directly at <a className="email-address" href="mailto: sarahgrichens@gmail.com">sarahgrichens@gmail.com</a>. Thanks!</div>
       </div>
       <Footer />
       </div>

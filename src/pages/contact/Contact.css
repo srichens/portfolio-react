@@ -60,6 +60,19 @@
   color: darkred;
 }
 
+.email-contact {
+  padding-top: 30px;
+}
+
+.email-address:link { 
+  color: rgb(106, 78, 125);
+  text-decoration: none;   
+}
+
+.email-address:hover{ 
+  color: gray;   
+}
+
 @media only screen and (max-width: 1200px) { 
   .form {
     width: 55%;
